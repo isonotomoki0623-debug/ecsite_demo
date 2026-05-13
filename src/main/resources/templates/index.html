@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,7 @@
     <link rel="stylesheet" href="../static/css/style.css">
 
     <!-- favicon -->
-    <link rel="icon" type="image/png" href="../static/images/icon.png">
+    <link rel="icon" type="image/png" href="../static/images/bird.jpg">
 </head>
 
 <body>
@@ -18,9 +19,12 @@
     <!-- HEADER -->
     <header>
         <div class="top-header">
-            <div class="logo">ShopZone</div>
 
-            <div class="header-links">
+            <img src="../static/images/logo_1.png" alt="タイトルロゴ" class="logo_title">
+
+            <!-- <div class="logo">ShopZone</div> -->
+
+            <div class="header-links" id="kaisei-decol-regular">
                 <div>トップ</div>
                 <div>商品一覧</div>
                 <div>お気に入り一覧</div>
@@ -32,16 +36,20 @@
                 <input type="text" placeholder="商品を検索">
                 <button>検索</button>
             </div>
+
+            <div class="user-profile">
+                <img src="../static/images/ghost.gif" alt="ユーザアイコン" class="profile-img">
+                <div class="user-level">Lv. 10</div>
+            </div>
         </div>
 
-        <nav>
+        <!-- <nav>
             <a href="#">ホーム</a>
-            <a href="#">家電</a>
-            <a href="#">ファッション</a>
-            <a href="#">食品</a>
-            <a href="#">ゲーム</a>
-            <a href="#">セール</a>
-        </nav>
+            <a href="#">商品一覧</a>
+            <a href="#">お気に入り一覧</a>
+            <a href="#">カート🛒</a>
+            <a href="#">プロフィール</a>
+        </nav> -->
     </header>
 
     <!-- HERO -->
@@ -95,8 +103,35 @@
 
     <!-- FOOTER -->
     <footer>
-        <p>© 2026 ShopZone All Rights Reserved.</p>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>ShopZone</h3>
+                <p>あなたの毎日を豊かにする、最高の商品をお届けします。</p>
+            </div>
+            <div class="footer-section">
+                <h4>カテゴリー</h4>
+                <ul>
+                    <li><a href="#">家電</a></li>
+                    <li><a href="#">ファッション</a></li>
+                    <li><a href="#">食品</a></li>
+                    <li><a href="#">ゲーム</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>サポート</h4>
+                <ul>
+                    <li><a href="#">利用規約</a></li>
+                    <li><a href="#">プライバシーポリシー</a></li>
+                    <li><a href="#">配送について</a></li>
+                    <li><a href="#">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 ShopZone All Rights Reserved.</p>
+        </div>
     </footer>
 
 </body>
+
 </html>
